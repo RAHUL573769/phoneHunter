@@ -9,10 +9,18 @@ const getPhoneDetails = () => {
     const url=`https://openapi.programming-hero.com/api/phones?search=${inputText.value}`
    
     inputText.value = '';
-
-    fetch(url)
+  if (inputText.value =='' || inputText.value ==typeof(45) ) {
+    alert("Enter a Mobile Phone");
+  }
+  else {
+        fetch(url)
         .then(response => response.json())
     .then(data=>loadPhoneDetais(data.data))
+  }
+  
+    // fetch(url)
+    //     .then(response => response.json())
+    // .then(data=>loadPhoneDetais(data.data))
     
     
     }
