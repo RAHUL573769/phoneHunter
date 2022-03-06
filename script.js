@@ -130,35 +130,35 @@ const showPhoneDetail = (infos) => {
         <h5 > Memory:</h5> ${infos.mainFeatures.memory}
          
           <br>
-                  <h5 > Sensor Information 01:</h5> ${infos.mainFeatures.sensors[0]}
+                  <h5 > Sensor Information 01:</h5> ${infos.mainFeatures.sensors[0]?infos.mainFeatures.sensors[0]:'No data to show'}
 
         <br>
           <br>
-                  <h5 > Sensor Information 02:</h5> ${infos.mainFeatures.sensors[1]}
+                  <h5 > Sensor Information 02:</h5> ${infos.mainFeatures.sensors[1]?infos.mainFeatures.sensors[1]:'No data to show'}
 
         <br>
           <br>
-                  <h5 > Sensor Information 03:</h5> ${infos.mainFeatures.sensors[2]}
+                  <h5 > Sensor Information 03:</h5> ${infos.mainFeatures.sensors[2]?infos.mainFeatures.sensors[2]:'No data to show'}
 
         <br>
           <br>
-                  <h5 > Sensor Information 04:</h5> ${infos.mainFeatures.sensors[3]}
+                  <h5 > Sensor Information 04:</h5> ${infos.mainFeatures.sensors[3]?infos.mainFeatures.sensors[3]:'No data to show'}
 
         <br>
           <br>
-                  <h5 > Sensor Information 05:</h5> ${infos.mainFeatures.sensors[4]}
+                  <h5 > Sensor Information 05:</h5> ${infos.mainFeatures.sensors[4]?infos.mainFeatures.sensors[4]:'No data to show'}
 
         <br>
           <br>
-                  <h5 > Sensor Information 06:</h5> ${infos.mainFeatures.sensors[5]}
+                  <h5 > Sensor Information 06:</h5> ${infos.mainFeatures.sensors[5]?infos.mainFeatures.sensors[5]:'No data to show'}
 
         <br>
           <br>
-                  <h5 > Sensor Information 07:</h5> ${infos.mainFeatures.sensors[6]}
+                  <h5 > Sensor Information 07:</h5> ${infos.mainFeatures.sensors[6]?infos.mainFeatures.sensors[6]:'No data to show'}
 
         <br>
           <br>
-                  <h5 > Sensor Information 08:</h5> ${infos.mainFeatures.sensors[7]}
+                  <h5 > Sensor Information 08:</h5> ${infos.mainFeatures.sensors[7]?infos.mainFeatures.sensors[7]:'No data to show'}
 
         <br>
         <h5 > Bluetooth:</h5> ${infos.others?infos.others.Bluetooth:'No data to show'}
